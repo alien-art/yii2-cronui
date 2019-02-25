@@ -1,0 +1,30 @@
+{
+    "name": "alien/yii2-cronui",
+    "description": "Module for UI interface system  cron.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","cron"],
+    "license": "BSD-3-Clause",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Alien-art",
+            "email": "alien@alien-art.ru"
+        }
+    ],
+    "minimum-stability": "@stable",
+    "require": {
+        "yiisoft/yii2": "*",
+        "yii2tech/crontab": "^1.0"
+
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "alien\\cronui\\": ""
+        }
+    }
+}
