@@ -12,11 +12,11 @@ class Module extends \yii\base\Module
      */
     public $controllerNamespace = 'alien\cronui\controllers';
 
-    public $urlPrefix = 'cron';
+    public $urlPrefix = 'content';
 
     public $urlRules = [
-        'tasks'             => 'tasks/index',
-        'tasks/<action>'     => 'tasks/<action>',
+        'cron'             => 'default/index',
+        'cron/<action>'     => 'default/<action>',
     ];
 
     /**

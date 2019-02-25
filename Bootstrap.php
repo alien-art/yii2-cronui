@@ -1,5 +1,4 @@
 <?php
-
 namespace alien\cronui;
 
 use Yii;
